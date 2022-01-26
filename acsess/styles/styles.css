@@ -1,0 +1,10 @@
+:root{
+    --mainprimerycolor: #086CF9;
+    --3rdsectorbgc: #ECF4FF;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
