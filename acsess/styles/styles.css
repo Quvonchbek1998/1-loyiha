@@ -215,18 +215,23 @@ color: #555555;
 }
 .our-all{
     width: 100%;
-    height: 100vh;
+    height: auto;
     background-color: var(--3rdsectorbgc);
     text-align: center;
+    margin-top: 128px;
 }
 .top{
     display: flex;
     justify-content: center;
+    margin-top: 48px;
+    
     text-align: left;
 }
 .under{
     margin-top: 30px;
     display: flex;
+    justify-content: center;
+
 }
 .course-types{
     width: 25%;
