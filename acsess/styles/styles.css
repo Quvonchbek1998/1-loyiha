@@ -17,6 +17,7 @@ button{
     border: none;
     outline: none;
     cursor: pointer;
+    font-family: 'DM Sans', sans-serif;
 }
 header{
     position: relative;
@@ -326,7 +327,7 @@ margin-left: 32px;
     margin: 24px 32px;
 }
 .upcoming-sect{
-    position: relative;
+    /* position: relative; */
     margin-top: 128px;
     width: 100%;
     height: 100vh;
@@ -413,4 +414,185 @@ font-weight: normal;
 font-size: 16px;
 line-height: 155%;
 margin-left: 11px;
+}
+.our-latest-blog{
+    width: 80%;
+    height: 100vh;
+    margin: 128px auto;
+}
+.our-latest-blog h1{
+    font-style: normal;
+font-weight: bold;
+font-size: 42px;
+line-height: 62px;
+text-align: center;
+margin-bottom: 12px;
+}
+.our-latest-blog p{
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 155%;
+text-align: center;
+color: #555555;
+margin-bottom: 42px;
+}
+.our-menu{
+    display: flex;
+    justify-content: center;
+}
+.o-info{
+    width: 368px;
+    height: 487px;
+    background: #FFFFFF;
+border: 0.5px solid #BFBFBF;
+box-sizing: border-box;
+border-radius: 4px;
+margin-left: 24px;
+}
+.o-text{
+    width: 84%;
+    margin-left: 29px;
+    text-align: left;
+}
+.o-text h3{
+    font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+color: #222222;
+}
+.o-text p{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 155%;
+color: #444444;
+text-align: left;
+margin: 16px 0;
+}
+.o-text a{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 155%;
+text-decoration: none;
+color: var(--mainprimerycolor);
+}
+.our-latest-blog button{
+    width: 124px;
+    height: 56px;
+    border-radius: 6px;
+    color: white;
+    background-color: var(--mainprimerycolor);
+    margin: 40px 48%;
+}
+.student-say{
+    width: 100%;
+    height: 80vh;
+    border: 1px solid black;
+}
+.st-titul{
+    text-align: center;
+}
+.st-titul h1{
+    font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 62px;
+margin-top: 128px;
+margin-bottom: 12px;
+}
+.st-titul p{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 155%;
+}
+.blue-st-say{
+    width: 65.2%;
+    height: 325px;
+    background-color: var(--mainprimerycolor);
+    margin: 128px auto;
+    color: white;
+    text-align: center;
+    padding-top: 48px;
+}
+.b-st-text h2{
+    font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+color: #FCFCFC;
+}
+.b-st-text p{
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 155%;
+text-align: center;
+color: #F9F9F9;
+margin-top: 12px;
+}
+.e-mail input{
+    position: relative;
+     width: 538px;
+    height: 64px;
+    border-radius: 4px;
+    margin-top: 40px;
+    border: none;
+    padding-left: 24px;
+    font-family: 'DM Sans', sans-serif;
+}
+.e-mail button{
+    position: absolute;
+    width: 115px;
+    height: 48px;
+    left: 900px;
+    top: 7105px;
+    background: var(--mainprimerycolor);
+border-radius: 4px;
+color: white;
+}
+.end{
+    width: 100%;
+    height: 45vh;
+    background-color: var(--staticbgcolor);
+}
+.endl-left-site{
+    width: 360px;
+    height: 281px;
+    border: 1px solid black;
+margin-left: 144px;
+
+}
+.endl-left-site h4{
+    font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 39px;
+}
+.endl-left-site h4:first-child {
+    margin-top: 60px;
+}
+.endl-left-site p{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 155%;
+color: #555555;
+margin: 24px auto;
+}
+.endl-left-site h4:last-child{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.endl-left-site i{
+    width: 48px;
+    height: 48px;
+    background: #FFFFFF;
+border-radius: 4px;
+color: var(--mainprimerycolor);
+text-align: center;
+justify-content: center;
 }
